@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+// hero section-----------------------------------
+.head nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(242, 221, 197) ;
+    height: 100px;
+    justify-content: space-around;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+
+    #th{
+        font-size: 20px;
+        color: black;
+        position: relative;
+        bottom: 24px;
+    }
+
+    span{
+        color: #60695D;
+    }
+}
+.head nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+.head nav ul li{
+    display: flex;
+    gap: 30px;
+}
+
+.head nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head nav ul li a img{
+    height: 20px;
+    width: 20px;
+}
+.head nav h1{
+    font-size: 40px;
+    position: relative;
+    right: 100px;
+}
+
+// section1---------------------------------------------------------------
+
+.title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-color: rgb(244, 236, 227);
+    text-align: center;
+
+    h1{
+        font-size: 60px;
+    }
+    p{
+      font-size: 20px;
+      padding-top: 30px;
+    }
+    #p1{
+      font-size: 20px;
+      padding-top: 10px;
+    }
+}
+
+// section 2--------------------------------------------------------------
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    .pamp1{
+      justify-content: center;
+      align-items: center;
+      padding: 100px;
+
+      h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+      p{
+       font-size: 20px; 
+       margin-bottom: 50px;
+     }
+     a{
+        text-decoration: none;
+        color: rgb(75, 91, 68);
+        font-size: 17px;
+        border: 1px solid rgb(75, 91, 68);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+            
+     }
+     
+    }
+    img{
+        height: 660px;
+        
+     }
+}
+
+// mid line --------------------------------------------------------------
+
+.mid h1{
+       height:130px;
+       color: white;
+       background-color: #586355;
+       text-align: center;
+       padding: 40px;
+       font-size: 37px;
+       font-family:sans-serif;
+       font-weight: 100;
+
+     }
+// footer ----------------------------------------------------------------//
+
+.footer{
+    background-color: #404D3C;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+    padding: 60px;
+    justify-content: center;
+    .f1 h1{
+        margin-bottom: 40px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .f1 p{
+      margin-bottom: 30px;
+      font-size: 17px;
+
+    }
+    .btnf{
+        color: white;
+        font-size: 20px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-left: 1px solid white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    #lab1{
+        font-size: 15px;
+    }
+    #mail{
+        margin-top: 10px;
+        height: 40px;
+        width: 93%;
+        font-size: 15px;
+        
+    }
+    #lab2{
+        font-size: 15px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+}
+
+.footer .f2{
+    margin-left: 30px;
+    h1{
+        font-size: 30px;
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+    a{
+      text-decoration: none;
+      color: white; 
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+    p{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    h3{
+        font-size: 19px;
+        margin-top: 10px;
+    }
+}
+
+.f3{
+   display: flex;
+   flex-direction: column;
+
+   a{
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+   }
+}

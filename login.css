@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(242, 221, 197);
+  height: 100px;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.head nav #th {
+  font-size: 20px;
+  color: black;
+  position: relative;
+  bottom: 24px;
+}
+.head nav span {
+  color: #60695D;
+}
+
+.head nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.head nav ul li {
+  display: flex;
+  gap: 30px;
+}
+
+.head nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.head nav ul li a img {
+  height: 20px;
+  width: 20px;
+}
+
+.head nav h1 {
+  font-size: 40px;
+  position: relative;
+  right: 100px;
+}
+
+.login {
+  padding-top: 50px;
+  background-color: rgb(254, 239, 227);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.login #img {
+  height: 100vh;
+}
+
+#move {
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+#move h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+#move label {
+  font-size: 20px;
+}
+
+#bt {
+  background-color: rgb(251, 205, 160);
+  border-radius: 20px;
+  border-color: rgb(251, 205, 160);
+  font-size: 17px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.footer {
+  background-color: #404D3C;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  padding: 60px;
+  justify-content: center;
+}
+.footer .f1 h1 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.footer .f1 p {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+.footer .btnf {
+  color: white;
+  font-size: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.footer #lab1 {
+  font-size: 15px;
+}
+.footer #mail {
+  margin-top: 10px;
+  height: 40px;
+  width: 93%;
+  font-size: 15px;
+}
+.footer #lab2 {
+  font-size: 15px;
+}
+.footer .btn {
+  margin-top: 20px;
+}
+
+.footer .f2 {
+  margin-left: 30px;
+}
+.footer .f2 h1 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+.footer .f2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.footer .f2 p {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.footer .f2 h3 {
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.f3 {
+  display: flex;
+  flex-direction: column;
+}
+.f3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=login.css.map */

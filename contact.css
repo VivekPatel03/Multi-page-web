@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.head nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(242, 221, 197);
+  height: 100px;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.head nav #th {
+  font-size: 20px;
+  color: black;
+  position: relative;
+  bottom: 24px;
+}
+.head nav span {
+  color: #60695D;
+}
+
+.head nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.head nav ul li {
+  display: flex;
+  gap: 30px;
+}
+
+.head nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.head nav ul li a img {
+  height: 20px;
+  width: 20px;
+}
+
+.head nav h1 {
+  font-size: 40px;
+  position: relative;
+  right: 100px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: rgb(244, 236, 227);
+  text-align: center;
+}
+.contact h1 {
+  font-size: 65px;
+}
+.contact p {
+  font-size: 20px;
+  padding-top: 30px;
+}
+.contact #p1 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px;
+}
+.cont .line {
+  height: 100%;
+  width: 0px;
+  border: 1px solid black;
+}
+
+.fill {
+  border-right: 1px solid black;
+  padding-right: 150px;
+  margin: 50px;
+}
+.fill .flname {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.fill #first {
+  height: 40px;
+}
+.fill #last {
+  height: 40px;
+}
+.fill #email {
+  height: 40px;
+}
+.fill #msg {
+  height: 80px;
+}
+.fill #send {
+  background-color: #404D3C;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  width: 80px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.hr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  padding-left: 100px;
+}
+.hr h1 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.hr p {
+  font-size: 18px;
+  font-weight: 100;
+}
+.hr #icon {
+  font-size: 25px;
+}
+
+.maping .map {
+  width: 100%;
+}
+
+.footer {
+  background-color: #404D3C;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  padding: 60px;
+  justify-content: center;
+}
+.footer .f1 h1 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.footer .f1 p {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+.footer .btnf {
+  color: white;
+  font-size: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.footer #lab1 {
+  font-size: 15px;
+}
+.footer #mail {
+  margin-top: 10px;
+  height: 40px;
+  width: 93%;
+  font-size: 15px;
+}
+.footer #lab2 {
+  font-size: 15px;
+}
+.footer .btn {
+  margin-top: 20px;
+}
+
+.footer .f2 {
+  margin-left: 30px;
+}
+.footer .f2 h1 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+.footer .f2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.footer .f2 p {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.footer .f2 h3 {
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.f3 {
+  display: flex;
+  flex-direction: column;
+}
+.f3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=contact.css.map */

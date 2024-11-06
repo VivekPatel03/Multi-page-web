@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.head nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(242, 221, 197);
+  height: 100px;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.head nav #th {
+  font-size: 20px;
+  color: black;
+  position: relative;
+  bottom: 24px;
+}
+.head nav span {
+  color: #60695D;
+}
+
+.head nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.head nav ul li {
+  display: flex;
+  gap: 30px;
+}
+
+.head nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.head nav ul li a img {
+  height: 20px;
+  width: 20px;
+}
+
+.head nav h1 {
+  font-size: 40px;
+  position: relative;
+  right: 100px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: rgb(244, 236, 227);
+  text-align: center;
+}
+.title h1 {
+  font-size: 65px;
+}
+.title p {
+  font-size: 20px;
+  padding-top: 30px;
+}
+.title #p1 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.menu h1 {
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  padding: 50px;
+}
+.menu h2 {
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.menu .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+}
+.menu .card .box {
+  background-color: rgb(249, 235, 220);
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+.menu .card .box img {
+  max-width: 320px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transition: 400ms;
+}
+.menu .card .box img:hover {
+  transform: scale(1.1, 1.1);
+}
+.menu .card h3 {
+  font-size: 20px;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+.menu .card p {
+  padding-bottom: 20px;
+}
+
+.tag .cart {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer {
+  background-color: #404D3C;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  padding: 60px;
+  justify-content: center;
+}
+.footer .f1 h1 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.footer .f1 p {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+.footer .btnf {
+  color: white;
+  font-size: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.footer #lab1 {
+  font-size: 15px;
+}
+.footer #mail {
+  margin-top: 10px;
+  height: 40px;
+  width: 93%;
+  font-size: 15px;
+}
+.footer #lab2 {
+  font-size: 15px;
+}
+.footer .btn {
+  margin-top: 20px;
+}
+
+.footer .f2 {
+  margin-left: 30px;
+}
+.footer .f2 h1 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+.footer .f2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.footer .f2 p {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.footer .f2 h3 {
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.f3 {
+  display: flex;
+  flex-direction: column;
+}
+.f3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=menu.css.map */
