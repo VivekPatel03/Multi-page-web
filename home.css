@@ -14,7 +14,7 @@ body {
   flex-direction: row;
   align-items: center;
   background-color: rgb(242, 221, 197);
-  height: 100px;
+  padding: 20px;
   justify-content: space-around;
   position: fixed;
   width: 100%;
@@ -54,12 +54,11 @@ body {
 .head nav h1 {
   font-size: 40px;
   position: relative;
-  right: 100px;
 }
 
 .hero {
-  background: url(/images/pexels-helloaesthe-14432904.jpg) no-repeat center center/cover;
-  position: sticky;
+  height: 100%;
+  background: url(images/2.webp) no-repeat center center/cover;
 }
 .hero .content {
   padding-top: 200px;
@@ -326,4 +325,34 @@ body {
   color: white;
   font-size: 60px;
   margin-bottom: 10px;
+}
+
+header input {
+  display: none;
+}
+
+header label {
+  display: none;
+}
+
+@media screen and (max-width: 786px) {
+  header label {
+    display: block;
+    font-size: 30px;
+  }
+  .head nav {
+    width: 61%;
+    justify-content: space-between;
+  }
+  .head nav ul {
+    display: flex;
+  }
+  .section1 img {
+    height: 41%;
+    position: relative;
+    top: 24%;
+  }
+  .section3 {
+    grid-template-columns: auto;
+  }
 }/*# sourceMappingURL=home.css.map */
