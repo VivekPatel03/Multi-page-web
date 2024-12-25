@@ -63,6 +63,8 @@
 }
 .hero .cart #lab1 {
   margin-top: 20px;
+  position: relative;
+  top: 10px;
 }
 .hero .cart h1 {
   font-size: 50px;
@@ -72,13 +74,18 @@
 }
 .hero .cart #special {
   font-size: 20px;
+  position: relative;
+  top: 10px;
 }
 .hero .cart button {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 18px;
+  padding: 7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border-radius: 20px;
   border: 1px solid black;
   background-color: bisque;
+  position: relative;
+  top: 10px;
 }
 .hero .img {
   height: 120%;
